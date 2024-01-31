@@ -1,18 +1,11 @@
 package com.fxdj;
 
-/**
- * Represents a shape defined by a set of points.
- */
+//Represents a shape defined by a set of points.
 public class Shape {
 
-    /**
-     * The points defining the shape's vertices.
-     */
+    //The points defining the shape's vertices.
     private Point[] points;
-
-    /**
-     * The calculated perimeter of the shape.
-     */
+    //The calculated perimeter of the shape.
     private double perim;
 
     /**
@@ -24,11 +17,8 @@ public class Shape {
         this.points = points;
     }
 
-    /**
-     * Calculates and returns the perimeter of the shape.
-     *
-     * @return The perimeter of the shape
-     */
+     //Calculates and returns the perimeter of the shape.
+     //@return The perimeter of the shape
     public double perimeter() {
         double perimeter = 0;
         int len = points.length;
